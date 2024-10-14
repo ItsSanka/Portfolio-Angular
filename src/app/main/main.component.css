@@ -1,0 +1,100 @@
+/* main section */
+.main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 100vh;
+  }
+  
+  .main-section h3 {
+    color: var(--white);
+    font-family: var(--font-family-poppins);
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .main-section h3 span {
+    color: var(--cerulean);
+  }
+  
+  .main-section h1 {
+    color: var(--white);
+    font-family: var(--font-family-source_code_pro);
+    font-size: var(--font-size-xxxl);
+    font-style: normal;
+    font-weight: 800;
+    height: auto;
+    line-height: normal;
+  }
+  
+  .main-section h1 span {
+    color: var(--cerulean);
+    font-style: normal;
+  }
+  
+  .main-section .download {
+    transition: 0.5ms;
+    border: 2px solid;
+    border-color: var(--cerulean);
+    border-radius: 11px;
+    color: var(--cerulean);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 14px 30px;
+    text-decoration: none;
+  }
+  
+  .main-section .contact {
+    transition: 0.5ms;
+    color: var(--white);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 400;
+    border: 2px solid transparent;
+    background: linear-gradient(
+      180deg,
+      rgb(8.000000473111868, 200.00000327825546, 231.00000143051147) 0%,
+      rgb(0, 166.00000530481339, 231.00000143051147) 100%
+    );
+    border-radius: 11px;
+    line-height: normal;
+    padding: 16px 30px;
+    text-decoration: none;
+  }
+  
+  .main-section .download:hover {
+    background: linear-gradient(
+      180deg,
+      rgb(8.000000473111868, 200.00000327825546, 231.00000143051147) 0%,
+      rgb(0, 166.00000530481339, 231.00000143051147) 100%
+    );
+    color: var(--white);
+  }
+  
+  .main-section .contact:hover {
+    background: transparent;
+    border: 2px solid;
+    border-color: var(--cerulean);
+    border-radius: 11px;
+    color: var(--cerulean);
+  }
+  
+  .main-section .btns {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .main-section img {
+    width: 375px;
+    height: 375px;
+    border-radius: 600px;
+    margin-bottom: 40px;
+  }
